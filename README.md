@@ -1,4 +1,4 @@
-##Simple Pitch Detector (Audio Analysis Focus)
+**Simple Pitch Detector (Audio Analysis Focus)**
 
 ## Challenge Completed
 **Option B — Simple Pitch Detector (Audio Analysis Focus)**  
