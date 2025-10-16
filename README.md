@@ -1,18 +1,18 @@
 **Simple Pitch Detector (Audio Analysis Focus)**
 
-## Challenge Completed
-**Option B — Simple Pitch Detector (Audio Analysis Focus)**  
+Challenge Completed
+Option B — Simple Pitch Detector (Audio Analysis Focus) 
 A Unity tool that detects the **fundamental frequency (pitch)** of real-time microphone input (e.g., humming, whistling).  
 Includes a **bonus feature**: works even with background music using adaptive noise gating and band-pass filtering.
 
 ---
 
-## Unity Version
+Unity Version
 Unity **6.0.0 (6000.0.47f1)** LTS — Windows.
 
 ---
 
-## Project Overview
+Project Overview
 **Main Script:** `PitchDetector.cs`  
 Key components:
 1. **Microphone Input** – continuous recording via `Microphone.Start()`.  
@@ -22,7 +22,7 @@ Key components:
 5. **Note Mapping** – converts frequency to musical note (A4 = 440 Hz).  
 6. **UI** – displays frequency + note via TextMeshPro.
 
-**Scene Layout**
+Scene Layout
 PitchDetectorScene
 ├── Main Camera
 ├── Directional Light
