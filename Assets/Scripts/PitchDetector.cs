@@ -20,9 +20,9 @@ public class PitchDetector : MonoBehaviour
     public float lpCutoff = 1500f;
 
     [Header("Adaptive Gate")]
-    [Tooltip("How much louder than background before detecting (1.5–2 typical)")]
+    [Tooltip("How much louder than background before detecting (1.5-2 typical)")]
     public float gateRatio = 1.8f;
-    [Tooltip("How fast the noise floor adapts (0.005–0.03)")]
+    [Tooltip("How fast the noise floor adapts (0.005-0.03)")]
     public float noiseAdapt = 0.01f;
 
     // Frequency limits for human voice/whistle
@@ -156,8 +156,8 @@ public class PitchDetector : MonoBehaviour
         }
 
         // Autocorrelation for lags in the useful frequency range
-        int minLag = Mathf.Max(2, Mathf.FloorToInt(sr / maxFrequency)); // e.g. ~44 for 1 kHz at 44.1k
-        int maxLag = Mathf.Min(half - 2, Mathf.CeilToInt(sr / minFrequency)); // e.g. ~882 for 50 Hz
+        int minLag = Mathf.Max(2, Mathf.FloorToInt(sr / maxFrequency)); 
+        int maxLag = Mathf.Min(half - 2, Mathf.CeilToInt(sr / minFrequency)); 
 
         // Compute corr[lag]
         for (int lag = 0; lag < half; lag++)
