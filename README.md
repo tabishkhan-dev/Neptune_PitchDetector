@@ -37,7 +37,7 @@ PitchDetectorScene
 1. Open project in **Unity 6.0.0 LTS**.  
 2. Load `PitchDetectorScene.unity`.  
 3. Connect a microphone and allow permission.  
-4. Press **Play** ▶️  
+4. Press **Play**  
 5. Hum or whistle → frequency and note appear.  
 6. Optional: play background music — the detector focuses on your voice.
 
