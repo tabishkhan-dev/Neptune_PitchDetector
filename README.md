@@ -54,7 +54,6 @@ Shows:
 
 ## Notes & Improvements
 - Works best for single-tone input (voice, whistle).  
-- Filtering may slightly shift very pure tones; adjust `lpCutoff` if needed.  
 - Possible extensions:
   - FFT-based multi-pitch detection  
   - Visual tuner bar / confidence meter  
